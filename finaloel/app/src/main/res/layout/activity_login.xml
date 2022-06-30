@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".MainActivity">-->
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LOGINN"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1BEE7"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:context=".login">
+
+    <TextView
+        android:id="@+id/LogIn"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="TextView"
+        android:textColor="#7B1FA2"
+        android:textSize="34sp"
+        tools:text="OMarket" />
+
+    <TextView
+        android:id="@+id/namelogin"
+        android:layout_width="91dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20"
+        android:fontFamily="sans-serif-medium"
+        android:text="LOGIN"
+        android:textColor="#7B1FA2"
+        android:textSize="24sp"></TextView>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#7B1FA2"
+        android:hint="UserName"
+        android:padding="20dp"
+        android:textColor="#FFFFFF"></EditText>
+
+
+    <EditText
+        android:id="@+id/log_pass"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#7B1FA2"
+        android:hint="PassWord"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="#FFFFFF"></EditText>
+
+    <Button
+        android:id="@+id/log_login"
+        android:layout_width="108dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="20dp"
+        android:text="Log In"></Button>
+
+    <Button
+        android:id="@+id/Register_login"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Register"></Button>
+
+</LinearLayout>
